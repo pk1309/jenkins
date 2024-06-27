@@ -1,0 +1,13 @@
+pipeline{
+agent any
+environment {
+Tool = 'jenkins'
+}
+stages{
+stage("ScenariosFromGIT"){
+steps{
+echo "\n hello wolrd $Tool\n\n\n"
+}
+}
+}
+}
